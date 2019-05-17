@@ -7,6 +7,10 @@ body {
     
 }
 
+h1 {
+    animation: fade-in 1s linear;
+}
+
 form {
     margin: 10%;
     display: flex;
@@ -35,4 +39,9 @@ p {
 
 label {
     color: grey;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1;}
 }
